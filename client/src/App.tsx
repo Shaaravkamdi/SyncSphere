@@ -1,7 +1,9 @@
+
 function App() {
   return (
-    <h1>SyncSphere</h1>
-  )
+    <div >
+    </div>
+  );
 }
 
-export default App
+export default App;
