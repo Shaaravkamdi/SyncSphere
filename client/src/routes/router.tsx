@@ -1,9 +1,10 @@
+import Navbar from "@/features/landing/components/navbar/Navbar";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <h1>SyncSphere</h1>,
+    element: <Navbar />,
   },
 ]);
 
