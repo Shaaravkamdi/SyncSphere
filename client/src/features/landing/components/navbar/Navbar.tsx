@@ -4,12 +4,12 @@ import { logoDark, logoLight } from '@/assets/logos'
 const Navbar = () => {
 
     const theme = "dark"
-    return (
+    return (            
         <div>
-            <nav className="bg-neutral-primary fixed w-full z-20 top-0 start-0 border-b border-default">
+            <nav className="fixed w-full z-20">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-                        <img src={theme === "dark" ? logoLight : logoDark} className="h-15" alt="SyncSphere" />
+                        <img src={theme === "dark" ? logoLight : logoDark} className="h-20" alt="SyncSphere" />
                         {/* <span className="self-center text-xl text-heading font-semibold whitespace-nowrap">SyncSphere</span> */}
                     </a>
                     <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-body rounded-base md:hidden hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none focus:ring-2 focus:ring-neutral-tertiary" aria-controls="navbar-default" aria-expanded="false">
