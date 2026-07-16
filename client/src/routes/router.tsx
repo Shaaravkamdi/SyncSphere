@@ -1,11 +1,11 @@
-import Navbar from "@/features/landing/components/navbar/Navbar";
+import LandingPage from "@/features/landing/pages/LandingPage";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Navbar />,
-  },
+    element: <LandingPage />,
+  }
 ]);
 
 export function AppRouter() {
