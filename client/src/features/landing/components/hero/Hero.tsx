@@ -1,6 +1,7 @@
+import DashboardPreview from "../dashboard-preview/DashboardPreview";
 import HeroBackground from "./HeroBackground";
 import HeroContent from "./HeroContent";
-import DashboardPreview from "./DashboardPreview";
+import HeroStats from "./HeroStats";
 
 const Hero = () => {
     return (
@@ -8,6 +9,7 @@ const Hero = () => {
             <HeroBackground />
             <div className="relative z-10">
                 <HeroContent />
+                <HeroStats />
                 <DashboardPreview />
             </div>
         </section>
