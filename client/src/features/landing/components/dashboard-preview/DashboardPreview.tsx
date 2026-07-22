@@ -1,5 +1,7 @@
 import Sidebar from "./Sidebar";
+import StatsCards from "./StatsCards";
 import Topbar from "./Topbar";
+import WelcomeSection from "./WelcomeSection";
 
 const DashboardPreview = () => {
     return (
@@ -8,9 +10,10 @@ const DashboardPreview = () => {
                 <div className="flex">
                     <Sidebar />
                     <div className="flex flex-1 flex-col">
-                        <Topbar />
+                        <Topbar title="Dashboard" subtitle="Welcome back, Shaarav" />
                         <main className="flex-1 bg-gray-50">
-                            {/* Dashboard Content */}
+                            <WelcomeSection greeting="Good Morning" message="Here's what's happening across your workspace today." />
+                            <StatsCards />
                         </main>
                     </div>
 

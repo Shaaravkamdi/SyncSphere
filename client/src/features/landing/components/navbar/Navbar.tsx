@@ -21,7 +21,6 @@ const Navbar = () => {
                             </li>
                         ))}
                     </ul>
-
                     <div className="flex items-center gap-5">
                         <Link to="/login" className="text-sm font-medium text-gray-700 transition-colors hover:text-black">
                             Login
@@ -32,7 +31,6 @@ const Navbar = () => {
                         </Link>
 
                     </div>
-
                 </div>
                 <button className="rounded-lg p-2 text-white transition hover:bg-neutral-800 lg:hidden" aria-label="Open navigation menu">
                     <Menu size={22} />
