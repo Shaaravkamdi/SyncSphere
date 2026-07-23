@@ -5,7 +5,7 @@ type WelcomeSectionProps = {
 
 const WelcomeSection = ({ greeting, message }: WelcomeSectionProps) => {
     return (
-        <section className="px-8 py-8">
+        <section className="px-8 py-6">
             <div>
                 <h2 className="text-3xl font-bold text-gray-900">
                     {greeting}

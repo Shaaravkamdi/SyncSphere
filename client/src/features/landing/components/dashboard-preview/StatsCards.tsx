@@ -3,7 +3,7 @@ import StatCard from "./StatCard";
 
 const StatsCards = () => {
     return (
-        <section className="grid grid-cols-1 gap-6 px-8 pb-8 sm:grid-cols-2 xl:grid-cols-4">
+        <section className="grid grid-cols-1 gap-5 px-5 pb-5 md:grid-cols-2 xl:grid-cols-4">
             {DASHBOARD_STATS.map((item) => (
                 <StatCard
                     key={item.id}
